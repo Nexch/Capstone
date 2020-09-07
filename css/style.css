@@ -1,3 +1,118 @@
-header nav {
-	background-color: black;
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.relative {
+	position: relative;
+}
+
+.color1 {
+  color: #d35266;
+}
+
+.color2 {
+	color: #888;
+}
+
+.color3 {
+	color: #383838;
+}
+
+.color4 {
+	color: white;
+}
+
+.font1 {
+	font-size: 40px;
+}
+
+.d-flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header nav ul {
+	background-color: #383838;
+	padding: 0 2rem;
+	position: fixed;
+}
+
+button {
+	background-color: #d35266;
+	padding: 0.5rem;
+	border: none;
+}
+
+.posts a {
+	margin: 0 0.5rem;
+
+}
+
+.user {
+  width: 50px;
+  height: 50px;
+  border-radius:50px;
+	margin-left: 20px;
+}
+
+.u-data button {
+	margin-right: 20px;
+}
+
+.sec-1 {
+	background-color: #d35266;
+	height: 50vh;
+	text-align: center;
+}
+
+.sec-1 h1 {
+	font-size: 150px;
+}
+
+.sec-1 p {
+	font-size: 20px;
+}
+
+@media (max-width: 600px) {
+	.n-xs {
+		display: none;
+	}
+
+}
+
+@media (max-width: 768px) {
+	* {
+		border: 1px solid red;
+	}
+	.n-movil {
+		display: none;
+	}
+}
+
+@media (max-width: 900px) {
+	* {
+		border: 1px solid blue;
+	}
+
+	.n-movil {
+		display: none;
+	}
+
+	.logo {
+		color: #d35266;
+	}
+
+	.color1 {
+		color: #888;
+	}
 }

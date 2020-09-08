@@ -7,8 +7,15 @@ li {
 	list-style-type: none;
 }
 
-a {
+body a:hover {
+	color: red;
 	text-decoration: none;
+  transition: all 0.5s ease-in-out 0.1s;
+}
+
+.text:hover {
+	text-decoration: none;
+	color: white;
 }
 
 .relative {
@@ -29,6 +36,10 @@ a {
 
 .color4 {
 	color: white;
+}
+
+.color5 {
+	color: gray;
 }
 
 .font1 {
@@ -66,7 +77,6 @@ button {
 
 .posts a {
 	margin: 0 0.5rem;
-
 }
 
 .user {
@@ -95,15 +105,54 @@ button {
 }
 
 .inp1 {
-	width: 300px;
+	width: 250px;
 	height: 60px;
+	margin: 0 1px;
 }
 
 .btn1 {
+	margin-left: 10px;
 	background-color: #383838;
 	height: 60px;
 	width: 100px;
 }
+
+.carousel {
+  background-color: #888;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.text-sec-2 {
+	max-width: 500px;
+}
+
+.sec-2 button {
+	width: 100px;
+}
+
+.sec-2 button:last-child {
+	border-left: 1px solid #383838;
+}
+
+.carousel img {
+  display: inline;
+  padding: 25px;
+}
+/*makes scrollbar invisible in crhome*/
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #d35266;
+}
+/*makes scrollbar invisible in crhome*/
 
 
 @media (max-width: 600px) {
@@ -123,10 +172,6 @@ button {
 }
 
 @media (max-width: 900px) {
-	* {
-		border: 1px solid blue;
-	}
-
 	.n-movil {
 		display: none;
 	}
@@ -137,5 +182,9 @@ button {
 
 	.color1 {
 		color: #888;
+	}
+
+	.color2 {
+		color: #d35266;
 	}
 }

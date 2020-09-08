@@ -52,4 +52,4 @@ Give a :fire: if you like this project!
 
 ## 📝 License
 
-This project has no license.
+Design idea by [Mohammed Awad on Behance](https://www.behance.net/M_Awad)

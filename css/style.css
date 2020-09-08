@@ -30,6 +30,10 @@ body a:hover {
 	color: #888;
 }
 
+.bg2 {
+	background-color: #888;
+}
+
 .color3 {
 	color: #383838;
 }
@@ -42,6 +46,10 @@ body a:hover {
 	color: gray;
 }
 
+.bg6 {
+	background-color: #f0f0f0;
+}
+
 .font1 {
 	font-size: 40px;
 }
@@ -49,6 +57,11 @@ body a:hover {
 .d-flex {
 	display: flex;
 	align-items: center;
+}
+
+.d-flex-b {
+	display: flex;
+	align-items: baseline;
 }
 
 .jcsb {
@@ -61,6 +74,22 @@ body a:hover {
 
 .jcc {
 	justify-content: center;
+}
+
+.jcfs {
+	justify-content: flex-start;
+}
+
+.jcfe {
+	justify-content: flex-end;
+}
+
+.n-hover {
+	visibility: hidden;
+}
+
+.p-relative {
+	position: relative;
 }
 
 header nav ul {
@@ -117,12 +146,6 @@ button {
 	width: 100px;
 }
 
-.carousel {
-  background-color: #888;
-  overflow: auto;
-  white-space: nowrap;
-}
-
 .carousel-2 {
   overflow: auto;
 }
@@ -148,10 +171,36 @@ button {
 	border-left: 1px solid #383838;
 }
 
-.carousel img {
-  display: inline;
-  padding: 25px;
+.elec-bar {
+	border-bottom: 1px solid #888;
 }
+
+.imgs-carousel {
+	padding: 20px;
+	background-color: white;
+	width: 190px;
+  margin-right: 30px;
+}
+
+.imgs-carousel p {
+	margin: 0;
+}
+
+.fa-plus {
+	border: 1px solid #888;
+	padding: 3px;
+	color: #888;
+}
+
+.fa-plus:hover {
+	color: #d35266;
+	background-color: #383838;
+}
+
+.navegation {
+	padding-bottom: 24px;
+}
+
 /*makes scrollbar invisible in crhome*/
 html {
   overflow: scroll;
@@ -163,9 +212,43 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #d35266;
+	background-color: #d35266;
 }
 /*makes scrollbar invisible in crhome*/
+
+.a1 .a2 {
+  visibility: hidden;
+  width: 290px;
+	height: 25px;
+  background-color: #d35266;
+	padding-left: 15px;
+	border-radius: 15px;
+  position: absolute;
+	bottom: 25px;
+}
+
+.a1:hover .a2 {
+  visibility: visible;
+}
+
+footer h4 {
+	padding: 10px;
+	margin: 0;
+	border-bottom: 1px solid #d35266
+}
+
+.categories li {
+	margin-right: 40px;
+}
+
+.text-footer {
+	width: 300px;
+	margin-right: 25px;
+}
+
+.icons i {
+	margin-right: 20px;
+}
 
 @media (max-width: 510px) {
 	* {
@@ -182,6 +265,10 @@ html {
 
 	.ads {
 		width: 200px !important;
+	}
+
+	.a1:hover .a2 {
+	  visibility: hidden;
 	}
 
 }
@@ -209,10 +296,20 @@ html {
 		width: 400px;
 	}
 
+	::-webkit-scrollbar-thumb {
+		background-color: transparent;
+	}
+
+	.icons {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+
 }
 
 @media (max-width: 900px) {
-	.n-movil {
+	.n-lg {
 		display: none;
 	}
 
@@ -226,5 +323,29 @@ html {
 
 	.color2 {
 		color: #d35266;
+	}
+
+	.choose form {
+		margin-left: 80px;
+	}
+
+	.navegation {
+		margin-left: 20px;
+	}
+
+	.navegation nav {
+		display: flex;
+		margin-left: 10px;
+	}
+
+	.navegation li {
+		margin-right: 50px;
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 1100px) {
+	.n-xl {
+		display: none;
 	}
 }

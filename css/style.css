@@ -123,8 +123,17 @@ button {
   white-space: nowrap;
 }
 
+.carousel-2 {
+  overflow: auto;
+}
+
+.ads {
+	display: inline;
+	padding-right: 80%;
+}
+
 .text-sec-2 {
-	max-width: 500px;
+	width: 700px;
 }
 
 .sec-2 button {
@@ -141,8 +150,8 @@ button {
 }
 /*makes scrollbar invisible in crhome*/
 html {
-    overflow: scroll;
-    overflow-x: hidden;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -186,5 +195,9 @@ html {
 
 	.color2 {
 		color: #d35266;
+	}
+
+	.text-sec-2 {
+		width: 100%;
 	}
 }

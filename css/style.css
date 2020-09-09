@@ -101,10 +101,6 @@ footer {
 	visibility: hidden;
 }
 
-.p-relative {
-	position: relative;
-}
-
 header nav ul {
 	background-color: #383838;
 	padding: 0 2rem;
@@ -317,6 +313,7 @@ input[type="checkbox"] {
 aside {
 	padding: 30px;
 	width: 230px;
+	border-bottom: 1px solid #888;
 }
 
 aside p {
@@ -335,13 +332,28 @@ aside p {
 	margin-bottom: 60px;
 }
 
+.rooms:last-child {
+	margin-bottom: 0;
+}
+
 .rooms:hover {
 	background-color: white;
 }
 
 .text-sec-2 {
 	max-width: 350px;
-	min-width: 200px;
+	min-width: 150px;
+}
+
+.a-icons {
+	background-color: black;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.a-icons button {
+	background-color: black;
 }
 
 @media (max-width: 510px) {

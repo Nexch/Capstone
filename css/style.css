@@ -13,6 +13,10 @@ body a:hover {
   transition: all 0.5s ease-in-out 0.1s;
 }
 
+footer {
+	padding-top: 40px;
+}
+
 .text:hover {
 	text-decoration: none;
 	color: white;
@@ -48,6 +52,10 @@ body a:hover {
 
 .bg6 {
 	background-color: #f0f0f0;
+}
+
+.zi2 {
+	z-index: 999;
 }
 
 .font1 {
@@ -123,6 +131,7 @@ button {
 	background-color: #d35266;
 	height: 50vh;
 	text-align: center;
+	z-index: -2
 }
 
 .sec-1 h1 {
@@ -211,9 +220,18 @@ html {
   width: 0;
 }
 
+::-webkit-scrollbar-track {
+	margin: 110px 0px;
+}
+
 ::-webkit-scrollbar-thumb {
 	background-color: #d35266;
 }
+
+.sec-3 ::-webkit-scrollbar-thumb {
+	border-left: 50px solid #f0f0f0;
+}
+
 /*makes scrollbar invisible in crhome*/
 
 .a1 .a2 {
@@ -250,11 +268,28 @@ footer h4 {
 	margin-right: 20px;
 }
 
-@media (max-width: 510px) {
-	* {
-		border: 1px solid blue !important;
-	}
+.top-footer {
+	justify-content: space-between;
+}
 
+.bg-logo {
+	top: 0;
+	left: 0;
+	font-size: 410px;
+	z-index: -1;
+}
+
+.select {
+	width: 100px;
+	border: 1px solid #888;
+	border-radius: 5px;
+}
+
+.select2 {
+	margin-left: -2px;
+}
+
+@media (max-width: 510px) {
 	.n-xxs {
 		display: none;
 	}
@@ -280,10 +315,6 @@ footer h4 {
 }
 
 @media (max-width: 768px) {
-	* {
-		border: 1px solid red;
-	}
-
 	.n-movil {
 		display: none;
 	}
@@ -333,14 +364,23 @@ footer h4 {
 		margin-left: 20px;
 	}
 
+	.navegation h4 {
+		border: 0;
+	}
+
 	.navegation nav {
 		display: flex;
 		margin-left: 10px;
 	}
 
-	.navegation li {
-		margin-right: 50px;
+	.navegation a {
+		margin-right: 40px;
 		font-size: 20px;
+		color: #d35266;
+	}
+
+	.navegation a:hover {
+		color: #888;
 	}
 }
 

@@ -8,7 +8,7 @@ li {
 }
 
 body {
-  font-family: 'Helvetica';
+  font-family: Helvetica, sans-serif, Arial;
 }
 
 a:hover {
@@ -142,6 +142,17 @@ button {
   font-size: 150px;
 }
 
+aside {
+  padding: 30px;
+  width: 230px;
+  border-bottom: 1px solid #888;
+}
+
+aside p {
+  border-bottom: 1px solid #888;
+  margin-right: 50px;
+}
+
 .sec-1 p {
   font-size: 20px;
 }
@@ -170,6 +181,8 @@ button {
 
 .text-sec-2 {
   width: 700px;
+  max-width: 350px;
+  min-width: 150px;
 }
 
 .button1 {
@@ -178,6 +191,10 @@ button {
 
 .button2 {
   width: 140px;
+}
+
+.a-icons button {
+  background-color: black;
 }
 
 .sec-2 button:last-child {
@@ -292,7 +309,6 @@ footer h4 {
 }
 
 /* second page */
-
 .sec-1-2 {
   background-color: #d35266;
   height: 25vh;
@@ -319,17 +335,6 @@ input[type="checkbox"] {
   color: white;
 }
 
-aside {
-  padding: 30px;
-  width: 230px;
-  border-bottom: 1px solid #888;
-}
-
-aside p {
-  border-bottom: 1px solid #888;
-  margin-right: 50px;
-}
-
 .text1 {
   border-left: 1px solid #888;
 }
@@ -349,20 +354,11 @@ aside p {
   background-color: white;
 }
 
-.text-sec-2 {
-  max-width: 350px;
-  min-width: 150px;
-}
-
 .a-icons {
   background-color: black;
   position: absolute;
   bottom: 0;
   right: 0;
-}
-
-.a-icons button {
-  background-color: black;
 }
 
 @media (max-width: 510px) {

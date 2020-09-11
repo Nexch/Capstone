@@ -53,7 +53,7 @@ Give a :fire: if you like this project!
 
 - I will like to express my sincere gratitude to Microverse, this incredible opportunity
 - Microverse
-- Mohammed Awad on Behance for the desing idea
+- Mohammed Awad And [Behance](https://www.behance.net/gallery/24796463/ZATTIX) For the Desing Idea 
 
 ## 📝 License
 

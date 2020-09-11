@@ -6,7 +6,6 @@
 
 ![screenshot](./imgs/image.png)
 
-The first capstone project for microverse, create a page using the requested requisites: (https://www.behance.net/gallery/24796463/ZATTIX)
 
 ## Built With
 

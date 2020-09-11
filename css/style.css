@@ -30,6 +30,10 @@ footer {
   position: relative;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .color1 {
   color: #d35266;
 }
@@ -62,8 +66,7 @@ footer {
   font-size: 40px;
 }
 
-.d-flex {
-  display: flex;
+.aic {
   align-items: center;
 }
 
@@ -71,13 +74,7 @@ footer {
   display: flex;
 }
 
-.d-flex-b {
-  display: flex;
-  align-items: baseline;
-}
-
 .d-flex-c {
-  display: flex;
   flex-direction: column;
 }
 

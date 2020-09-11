@@ -19,6 +19,9 @@ The first capstone project for microverse, create a page using the requested req
 
 [Live Demo Link](https://nexch.github.io/Capstone/)
 
+## Video
+
+[Video Link](https://youtu.be/xrbdTwvJXSQ)
 
 ## Getting Started
 
@@ -27,7 +30,7 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 Having a computer and git working.
 ### Setup
-git clone https://github.com/Nexch/Capstone.git
+"``` git clone https://github.com/Nexch/Capstone.git ```"
 ### Usage
 Open it in your favorite browser
 ## Authors

@@ -350,10 +350,11 @@ input[type="checkbox"] {
 
 .text1 {
   border-left: 1px solid #888;
+  width: 100%;
 }
 
 .rooms {
-  width: 70vw;
+  width: 100%;
   border-bottom: 1px solid #888;
   border-top: 1px solid #888;
   margin-bottom: 60px;

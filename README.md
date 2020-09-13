@@ -20,7 +20,7 @@
 
 ## Video
 
-[Video Link](https://youtu.be/xrbdTwvJXSQ)
+[Video Link](https://www.loom.com/share/d57ef7d458af4382932d18fa8b184b28)
 
 ## Getting Started
 
@@ -53,7 +53,7 @@ Give a :fire: if you like this project!
 
 - I will like to express my sincere gratitude to Microverse, this incredible opportunity
 - Microverse
-- Mohammed Awad And [Behance](https://www.behance.net/gallery/24796463/ZATTIX) For the Desing Idea 
+- Mohammed Awad And [Behance](https://www.behance.net/gallery/24796463/ZATTIX) For the Desing Idea
 
 ## 📝 License
 

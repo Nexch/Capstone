@@ -4,19 +4,23 @@
 
 > Project: Capstone #1.
 
-![screenshot](./photos/***)
+![screenshot](./imgs/image.png)
 
-The first capstone project for microverse, create a page using the requested requisites: ***
 
 ## Built With
 
-- Html, css,
--
+- Html
+- CSS
+- Bootstrap
+- Fontawesome
 
 ## Live Demo
 
-[Live Demo Link](https://*** )
+[Live Demo Link](https://nexch.github.io/Capstone/)
 
+## Video
+
+[Video Link](https://www.loom.com/share/d57ef7d458af4382932d18fa8b184b28)
 
 ## Getting Started
 
@@ -25,7 +29,7 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 Having a computer and git working.
 ### Setup
-git clone https://***
+"``` git clone https://github.com/Nexch/Capstone.git ```"
 ### Usage
 Open it in your favorite browser
 ## Authors
@@ -47,9 +51,10 @@ Give a :fire: if you like this project!
 
 ## Acknowledgments
 
-- I will like to express my sincere gratitude to Microverse, for giving me and my partner, this incredible opportunity
+- I will like to express my sincere gratitude to Microverse, this incredible opportunity
 - Microverse
+- Mohammed Awad And [Behance](https://www.behance.net/gallery/24796463/ZATTIX) For the Desing Idea
 
 ## 📝 License
 
-This project has no license.
+Design idea by [Mohammed Awad on Behance](https://www.behance.net/M_Awad)
